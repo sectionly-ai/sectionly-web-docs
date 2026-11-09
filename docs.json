@@ -1,0 +1,95 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Sectionly Docs",
+  "colors": {
+    "primary": "#6D49F4",
+    "light": "#9B85FF",
+    "dark": "#6D49F4"
+  },
+  "favicon": "/favicon.png",
+  "icons": {
+    "library": "lucide"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://www.sectionly.ai"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Product Options",
+            "icon": "sliders-horizontal",
+            "groups": [
+              {
+                "group": "Custom Product Option",
+                "icon": "settings",
+                "pages": [
+                  "option/getting-started",
+                  "option/create-option-ai",
+                  "option/create-option-template",
+                  "option/create-option-manually"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "tabs": [
+          {
+            "tab": "Product Options",
+            "icon": "sliders-horizontal",
+            "groups": [
+              {
+                "group": "自定义产品选项",
+                "icon": "settings",
+                "pages": [
+                  "zh/option/getting-started",
+                  "zh/option/create-option-ai",
+                  "zh/option/create-option-template",
+                  "zh/option/create-option-manually"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://www.sectionly.ai"
+      }
+    ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://www.sectionly.ai"
+    }
+  },
+  "seo": {
+    "metatags": {
+      "robots": "noindex"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# Mintlify automatically ignores .git, .github, node_modules, README.md, LICENSE.md, CHANGELOG.md
+
+# Migration tooling
+scripts/

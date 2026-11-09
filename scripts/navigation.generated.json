@@ -1,0 +1,44 @@
+[
+  {
+    "language": "en",
+    "tabs": [
+      {
+        "tab": "Product Options",
+        "icon": "sliders-horizontal",
+        "groups": [
+          {
+            "group": "Custom Product Option",
+            "icon": "settings",
+            "pages": [
+              "option/getting-started",
+              "option/create-option-ai",
+              "option/create-option-template",
+              "option/create-option-manually"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "language": "zh",
+    "tabs": [
+      {
+        "tab": "Product Options",
+        "icon": "sliders-horizontal",
+        "groups": [
+          {
+            "group": "自定义产品选项",
+            "icon": "settings",
+            "pages": [
+              "zh/option/getting-started",
+              "zh/option/create-option-ai",
+              "zh/option/create-option-template",
+              "zh/option/create-option-manually"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

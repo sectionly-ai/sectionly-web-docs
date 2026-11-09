@@ -1,0 +1,160 @@
+---
+title: "Create Option Sets Manually"
+description: "Build product customization options from scratch, including element addition, group management, and precise application settings"
+---
+
+This guide provides detailed instructions on how to manually create product option sets in Sectionly:AI Product Options, covering core features including element addition, group management, and application settings.
+
+## Accessing the Creation Page
+
+### Navigation Path
+
+<Steps>
+<Step title={"Enter the App admin dashboard"}>
+</Step>
+<Step title={"Select \"Sectionly:AI Product Options\""}>
+</Step>
+<Step title={"Click \"Option Sets\""}>
+</Step>
+<Step title={"Click \"Create Option Sets\""}>
+</Step>
+</Steps>
+
+![Navigation to creation page](/images/option/create-option-manually/97882f78f8.png)
+
+## Core Workflow
+
+### Adding Elements
+
+<Info>
+Click the "+ Add Element" button and the system will display an element type selection menu with 3 main categories of different element types to choose from.
+</Info>
+
+1. **Select Element Type**
+   - Choose the desired element type from the popup menu
+   - For example: Click "Text Input" and the element will be immediately added to the list
+   - The preview area on the right will display the added element effects in real-time
+
+![Adding element example](/images/option/create-option-manually/65dda2b6d8.png)
+
+2. **Configure Element Properties**
+   - Configure each element's settings according to your specific needs
+   - For detailed configuration options, please refer to the related documentation
+
+![Element configuration interface](/images/option/create-option-manually/c6947fc567.png)
+
+### Group Management
+
+The grouping feature helps you better organize related elements and optimize frontend display logic.
+
+<Steps>
+<Step title={"Click \"Add Group\" to add a group element"}>
+</Step>
+<Step title={"In \"Group Members\", check the elements you want to include in the group"}>
+</Step>
+<Step title={"Elements will be displayed in the group according to their order in the main list"}>
+</Step>
+</Steps>
+
+![Adding groups](/images/option/create-option-manually/6448adafd5.png)
+
+**Group Example:**
+When creating an "Appearance Customization" group, you can check the already added "Color Swatch" and "Image Picker" elements. In the frontend preview, these two elements will be displayed under this group.
+
+![Group member selection](/images/option/create-option-manually/06534d8ba5.png)
+
+## Option Set Application and Settings
+
+### Product Application Scope
+
+<Tabs>
+<Tab title="Manual Selection">
+
+**Manual Product Selection**
+
+1. Enable the "Manual Selection" toggle
+2. Click "Click to select products" to search and select target products
+3. Each product has a "Remove" button on the right to individually remove unwanted products
+4. Click the "Reset" button to clear all selected products at once and replan the application scope
+
+![Manual product selection](/images/option/create-option-manually/eee2bd7c69.png)
+
+![Remove products](/images/option/create-option-manually/f1c3dcaa42.png)
+
+![Reset selection](/images/option/create-option-manually/f47b569eb1.png)
+
+</Tab>
+<Tab title="Apply to All Products">
+
+**Apply to All Products**
+
+Enable the "Apply to All Products" toggle to apply the option set to all products with one click, suitable for universal customization needs.
+
+![Apply to all products](/images/option/create-option-manually/59e9cc0d6b.png)
+
+</Tab>
+</Tabs>
+
+### Basic Information Configuration
+
+<Steps>
+<Step title={"Click the \"⋯\" button next to \"New Option Set\""}>
+</Step>
+<Step title={"Modify the option set name in the popup window (e.g., \"Summer T-shirt Customization\")"}>
+</Step>
+<Step title={"Select status:"}>
+- "Active": Enabled, can be applied to products
+- "Inactive": Disabled, temporarily not applied
+</Step>
+</Steps>
+
+![Basic information configuration](/images/option/create-option-manually/4a75b307b2.png)
+
+## Top Action Buttons
+
+<AccordionGroup>
+<Accordion title="Discard">
+Abandon current configuration, close the popup without saving any changes.
+
+![Discard button](/images/option/create-option-manually/3e2c3383cf.png)
+</Accordion>
+
+<Accordion title="Save">
+Save current configuration without closing the configuration popup, allowing continued adjustments.
+
+![Save button](/images/option/create-option-manually/1c08fddd0d.png)
+</Accordion>
+
+<Accordion title="Preview Mode">
+**Desktop Preview:**
+Click the PC icon and the preview area on the right displays the desktop layout effect.
+
+![Desktop preview](/images/option/create-option-manually/ce0af1ac82.png)
+
+**Mobile Preview:**
+Click the M icon and the preview area simulates mobile device interface layout.
+
+![Mobile preview](/images/option/create-option-manually/ebe4044c53.png)
+</Accordion>
+
+<Accordion title="Theme Editor">
+If you haven't configured App Block embedding and other display settings in the theme editor, or need to fine-tune how the option set displays in your store theme (such as position and style adaptation), click the "Theme Editor" button to quickly jump to the Shopify online theme editor.
+
+![Theme editor](/images/option/create-option-manually/5e40f778b6.png)
+</Accordion>
+
+<Accordion title="Preview (Validation)">
+Click the "Preview" button to open a dedicated popup that only displays products where the current configuration is actually applied. Click "Preview" next to a product to jump to the frontend detail page and validate the configuration effects.
+
+![Preview validation](/images/option/create-option-manually/40434beea9.png)
+</Accordion>
+</AccordionGroup>
+
+## Important Notes
+
+<Warning>
+**Important Reminders**
+- After creating an option set, the status defaults to "Active"
+- You can manage option sets in the "Option Sets List" (such as modifying status, copying, deleting, etc.)
+- When multiple active option sets have overlapping product applications, the system follows priority rules of "precise matching first" and "latest update takes precedence"
+</Warning>
