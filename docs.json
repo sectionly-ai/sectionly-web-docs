@@ -86,10 +86,5 @@
     "socials": {
       "website": "https://www.sectionly.ai"
     }
-  },
-  "seo": {
-    "metatags": {
-      "robots": "noindex"
-    }
   }
 }
