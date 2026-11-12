@@ -36,6 +36,30 @@
                 ]
               }
             ]
+          },
+          {
+            "tab": "Reviews",
+            "icon": "star",
+            "groups": [
+              {
+                "group": "Headless storefront",
+                "pages": [
+                  "reviews/headless"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "B2B Wholesale",
+            "icon": "building-2",
+            "groups": [
+              {
+                "group": "Headless storefront",
+                "pages": [
+                  "b2b/headless"
+                ]
+              }
+            ]
           }
         ]
       },
@@ -54,6 +78,30 @@
                   "zh/option/create-option-ai",
                   "zh/option/create-option-template",
                   "zh/option/create-option-manually"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Reviews",
+            "icon": "star",
+            "groups": [
+              {
+                "group": "Headless 接入",
+                "pages": [
+                  "zh/reviews/headless"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "B2B Wholesale",
+            "icon": "building-2",
+            "groups": [
+              {
+                "group": "Headless 接入",
+                "pages": [
+                  "zh/b2b/headless"
                 ]
               }
             ]

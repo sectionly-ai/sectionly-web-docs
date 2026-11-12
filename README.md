@@ -1,12 +1,14 @@
 # Sectionly Docs
 
-Sectionly 产品文档站（Mintlify，https://docs.sectionly.ai）。每个 App 一个顶部 Tab，目前有 **Product Options**；支持 en（根路径）与 zh（`/zh`）。
+Sectionly 产品文档站（Mintlify，https://docs.sectionly.ai）。每个 App 一个顶部 Tab，目前有 **Product Options**、**Reviews** 和 **B2B Wholesale**；支持 en（根路径）与 zh（`/zh`）。
 
 ## 目录
 
 - `docs.json`：站点配置与导航（`navigation.languages[].tabs`）
 - `option/<slug>.mdx`、`zh/option/<slug>.mdx`：Product Options 文档
-- `images/option/<slug>/`：文档图片
+- `reviews/headless.mdx`、`zh/reviews/headless.mdx`：Reviews Headless 图文接入指南
+- `b2b/headless.mdx`、`zh/b2b/headless.mdx`：B2B Headless 图文接入指南
+- `images/<app>/<slug>/`：站内图片资源，中英文页面共用
 - `scripts/export-payload.mjs`：从官网 Payload CMS 迁移文档的一次性脚本（已完成）
 - `scripts/redirects-map.json`：官网旧 `/docs/<slug>`、`/zh/docs/<slug>` → 新路径，供官网 `proxy.ts` 做 301
 
